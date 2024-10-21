@@ -28,16 +28,12 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 2. Instale as dependências:
 
-   ![Instalação de dependências](image.png)
-
    ```bash
    npm install
 
    ```
 
 3. Inicie o servidor em ambiente de desenvolvimento:
-
-   ![Iniciar o servidor](image-1.png)
 
    ```bash
    npm run start:dev
@@ -76,26 +72,25 @@ O projeto segue a arquitetura padrão do NestJS:
 
 ## Testes
 
-1. Este projeto usa o Jest para testes.
 
-Para rodar os testes:
-
-````bash
-npm run test
-
-
-2. Para rodar os testes em modo de observação:
-
+Este projeto usa o Jest para testes. Para rodar os testes:
 ```bash
-npm run test:watch
+  npm run test
+```
 
-
-3. Para verificar a cobertura dos testes:
-
+Para rodar os testes em modo de observação:
 ```bash
-npm run test:cov
+  npm run test:watch
+```
+
+Para verificar a cobertura dos testes:
+```bash
+  npm run test:cov
+```
+
 
 ## Licença
 
 Este projeto é UNLICENSED. Para mais informações, consulte o arquivo LICENSE.
-````
+
+
